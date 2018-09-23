@@ -8,14 +8,14 @@ package.jsonが置いてあるdirectoryで
 npm installする
 
 ### 動かしてみる
-npm run build:dev後、
+npm run build:dev後、  
 dist/index.htmlを開けばよいです。
 
-serverを使う場合、
-npm run start後、
-localhost:3000/testにブラウザからアクセスする。
-\#devtoolを入れて、hotreloadするので、serverを使ったほうがいいはず。
-\#もしかしたらserverいらないかも。
+serverを使う場合、  
+npm run start後、  
+localhost:3000/testにブラウザからアクセスする。  
+\#devtoolを入れて、hotreloadするので、serverを使ったほうがいいはず。  
+\#もしかしたらserverいらないかも。
 
 ## 技術
 ### frontend
@@ -32,8 +32,8 @@ nuxt.js試してもいいかも。
 #### 一旦
 node + express
 #### 今後
-今後pythonかjavaかgoかscalaに置き換えるか  
-frontendだけで完結するようなtoolにするか要検討
+今後pythonかjavaかgoかscalaに置き換えるか  
+frontendだけで完結するようなtoolにするか要検討  
   
 ### 他 
 reactでも書いてみようかしら,jsx試したい。
@@ -43,6 +43,6 @@ reactでも書いてみようかしら,jsx試したい。
 ### ./src
 ソースコードをおく
 ### ./mock
-サーバのモックをおく
+サーバのモックをおく
 ### ./dist
-build後のソースコードがおかれる
+build後のソースコードがおかれる
