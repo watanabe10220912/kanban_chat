@@ -13,7 +13,7 @@ export default {
     name:'HelloWorld',
     data(){
         return {
-            message:'helloworld this is subcomponent message'
+            message:'this is subcomponent message'
         }
     }
     

@@ -7,13 +7,21 @@ nodeはLTS(2018/09/23時点)版をinstallする。
 package.jsonが置いてあるdirectoryで  
 npm installする
 
+### エディタ
+なんでもいいですが、今は、vscodeを使ってます。  
+vscodeの場合、Syntax highliteはdefaultではないので、  
+extensionをなんか入れたほうがいいです。  
+- 今入れてるもの
+Vetur + Vue 2 Snippets
+
 ### 動かしてみる
 npm run build:dev後、  
-dist/index.htmlを開けばよいです。
+.src/ファイルがbundle.jsファイルにtraspile,bundleされます。  
+dist/index.htmlをブラウザで開けばよいです。  
 
 serverを使う場合、  
 npm run start後、  
-localhost:3000/testにブラウザからアクセスする。  
+localhost:3000/testにブラウザからアクセスします。  
 \#devtoolを入れて、hotreloadするので、serverを使ったほうがいいはず。  
 \#もしかしたらserverいらないかも。
 
