@@ -16,7 +16,6 @@ export default {
             message:'this is subcomponent message'
         }
     }
-    
 }
 </script>
 
